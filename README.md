@@ -10,8 +10,8 @@ Welcome to CS 110. I look forward to working with you this semester. This is you
 
 ## Student Info - MUST BE COMPLETED
 
-Preferred Name:
+Preferred Name: Mason
 
-Discord username:
+Discord username: Mason Nash
 
-REPL url:
+REPL url: https://replit.com/@Mnash1/CS110#README.md
