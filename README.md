@@ -14,4 +14,4 @@ Preferred Name: Mason
 
 Discord username: Mason Nash
 
-REPL url: https://replit.com/@Mnash1/CS110#README.md
+REPL url: https://replit.com/@Mnash1/CS110
