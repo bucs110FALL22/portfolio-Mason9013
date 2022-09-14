@@ -14,4 +14,4 @@ Preferred Name: Mason
 
 Discord username: Mason Nash
 
-REPL url: [https://replit.com/@Mnash1/CS110](https://replit.com/join/urotejiiud-mnash1) 
+REPL url: https://replit.com/join/urotejiiud-mnash1
