@@ -17,6 +17,7 @@ classes_per_week = 3
 print(classes_per_week,type(classes_per_week))
 
 cost_per_class = (cost_per_week/classes_per_week)
+print("cost_per_class", type(cost_per_class))
 print("Hello user how are you? Cost per class:", cost_per_class)
 
 #Part B
