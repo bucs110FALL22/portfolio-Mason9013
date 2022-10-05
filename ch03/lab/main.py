@@ -36,11 +36,93 @@ michelangelo.goto(-100,20)
 leonardo.goto(-100,-20)
   
 # PART B - complete part B here
-
-
-for num_sides in 
-
 pygame.init()
 window = pygame.display.set_mode()
 
-window.exitonclick()
+green = (0,255,0)
+blue = (0,0,255)
+window.fill(green)
+
+coords = []
+num_sides = 3
+side_length = int(80)
+offset = int(150)
+for s in range(3):
+  theta = (2.0 * math.pi * (s)) / num_sides
+  x = side_length * math.cos(theta) + offset
+  y = side_length * math.sin(theta) + offset
+  coords.append ((x,y))
+pygame.draw.polygon(window,blue,coords)
+pygame.display.flip()
+pygame.time.wait(1000)
+window.fill(green)
+
+coords = []
+num_sides = 4
+side_length = int(80)
+offset = int(150)
+for s in range(4):
+  theta = (2.0 * math.pi * (s)) / num_sides
+  x = side_length * math.cos(theta) + offset
+  y = side_length * math.sin(theta) + offset
+  coords.append ((x,y))
+pygame.draw.polygon(window,blue,coords)
+pygame.display.flip()
+pygame.time.wait(1000)
+window.fill(green)
+
+coords = []
+num_sides = 6
+side_length = int(80)
+offset = int(150)
+for s in range(6):
+  theta = (2.0 * math.pi * (s)) / num_sides
+  x = side_length * math.cos(theta) + offset
+  y = side_length * math.sin(theta) + offset
+  coords.append ((x,y))
+pygame.draw.polygon(window,blue,coords)
+pygame.display.flip()
+pygame.time.wait(1000)
+window.fill(green)
+
+coords = []
+num_sides = 6
+side_length = int(80)
+offset = int(150)
+for s in range(6):
+  theta = (2.0 * math.pi * (s)) / num_sides
+  x = side_length * math.cos(theta) + offset
+  y = side_length * math.sin(theta) + offset
+  coords.append ((x,y))
+pygame.draw.polygon(window,blue,coords)
+pygame.display.flip()
+pygame.time.wait(1000)
+window.fill(green)
+
+coords = []
+num_sides = 9
+side_length = int(80)
+offset = int(150)
+for s in range(9):
+  theta = (2.0 * math.pi * (s)) / num_sides
+  x = side_length * math.cos(theta) + offset
+  y = side_length * math.sin(theta) + offset
+  coords.append ((x,y))
+pygame.draw.polygon(window,blue,coords)
+pygame.display.flip()
+pygame.time.wait(1000)
+window.fill(green)
+
+coords = []
+num_sides = 360
+side_length = int(80)
+offset = int(150)
+for s in range(360):
+  theta = (2.0 * math.pi * (s)) / num_sides
+  x = side_length * math.cos(theta) + offset
+  y = side_length * math.sin(theta) + offset
+  coords.append ((x,y))
+pygame.draw.polygon(window,blue,coords)
+pygame.display.flip()
+pygame.time.wait(1000)
+window.fill(green)
