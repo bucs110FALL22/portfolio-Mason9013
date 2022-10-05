@@ -30,8 +30,10 @@ leonardo.goto(-100,-20)
 for i in range(1,21):
   if i % 2 == 0:
     michelangelo.forward (random.randrange(1,11))
+    pygame.time.wait(100)
   if i % 2 != 0:
     leonardo.forward(random.randrange(1,11))
+    pygame.time.wait(100)
 michelangelo.goto(-100,20)
 leonardo.goto(-100,-20)
   
