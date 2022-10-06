@@ -9,6 +9,7 @@ pos = turtle.pos()
 screen = window.screensize()
 
 print(window.screensize()) #(400,300)
+print(turtle.pos())
 
 while bird.xcor() <= 200 and bird.xcor() >= -200 and bird.ycor() <= 150 and bird.ycor() >= -150:
   number = random.randrange(0,2)
@@ -23,6 +24,8 @@ while bird.xcor() <= 200 and bird.xcor() >= -200 and bird.ycor() <= 150 and bird
     bird.xcor()
     bird.ycor()
     
+    
+
 window.exitonclick()
   
   
