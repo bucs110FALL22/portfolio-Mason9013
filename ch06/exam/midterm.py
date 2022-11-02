@@ -14,7 +14,8 @@ def triangle(x,y):
   dog.end_fill()
   '''
   This function makes a black traingle
-  args: (coords) The arguments are x,y coordinates where the shape will start drawing
+  args: (coords) The arguments are x,y coordinates where the shape 
+  will start drawing
   return: nope
   '''
 
@@ -30,7 +31,8 @@ def uptriangle(x,y):
   dog.end_fill()
   '''
   This function makes a black traingle upside down
-  args: (coords) The arguments are x,y coordinates where the shape will start drawing
+  args: (coords) The arguments are x,y coordinates where the shape 
+  will start drawing
   return: nope
   '''
 
@@ -46,7 +48,8 @@ def square(x,y):
   dog.end_fill()
   '''
   This function makes a brown square
-  args: (coords) The arguments are x,y coordinates where the shape will start drawing
+  args: (coords) The arguments are x,y coordinates where the shape 
+  will start drawing
   return: nope
   '''
 
