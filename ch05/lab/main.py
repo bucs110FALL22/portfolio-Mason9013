@@ -36,9 +36,7 @@ itersDict = {}
 maxSoFar = 0
 maxVal = 0
 
-font = pygame.font.Font(None,18)
-
-for x in range(2, first_upper_limit):
+for x in first_start:
   count = 0
   n = x
   while n !=1:
@@ -49,6 +47,8 @@ for x in range(2, first_upper_limit):
     count += 1
   itersDict[x*15] = (count*15)
 pygame.display.flip()          
+
+font = pygame.font.Font(None,18)
 
 if len(itersDict) >= 2:
   pygame.draw.lines(display, "orange", False, list(itersDict.items()))
